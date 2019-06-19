@@ -122,15 +122,9 @@ bool idaapi run(size_t arg){
 }
 
 //--------------------------------------------------------------------------
-static const char comment[] = "This is a sample plugin. It does nothing useful";
+static const char comment[] = "This plugin allows you to select a register and then find every line of assembly inside a function that has used the specified register.";
 
-static const char help[] =
-"A sample plugin module\n"
-"\n"
-"This module shows you how to create plugin modules.\n"
-"\n"
-"It does nothing useful - just prints a message that is was called\n"
-"and shows the current address.\n";
+static const char help[] = "Highlight a register and then press CTRL+3 and select \"Trace register\"";
 
 //--------------------------------------------------------------------------
 // This is the preferred name of the plugin module in the menu system
