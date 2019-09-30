@@ -94,13 +94,13 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\_el0n\source\repos\IDATraceRegister\IDATraceRegister;C:\Users\_el0n\source\repos\IDATraceRegister\libraries\zydis-2.0.3\include;C:\idasdk70\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)IDATraceRegister;$(SolutionDir)libraries\zydis-2.0.3\include;C:\idasdk70\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__NT__;__IDP__;__X64__;Zydis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>C:\idasdk70\lib\x64_win_vc_32\ida.lib;%(AdditionalDependencies);C:\Users\_el0n\source\repos\IDATraceRegister\libraries\zydis-2.0.3\msvc\bin\Zydis.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\idasdk70\lib\x64_win_vc_32\ida.lib;%(AdditionalDependencies);$(SolutionDir)libraries\zydis-2.0.3\msvc\bin\Zydis.lib</AdditionalDependencies>
       <AdditionalOptions />
     </Link>
   </ItemDefinitionGroup>
@@ -110,13 +110,13 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\_el0n\source\repos\IDATraceRegister\IDATraceRegister;C:\Users\_el0n\source\repos\IDATraceRegister\libraries\zydis-2.0.3\include;C:\Users\_el0n\source\repos\IDATraceRegister\IDATraceRegister;C:\idasdk70\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)IDATraceRegister;$(SolutionDir)libraries\zydis-2.0.3\include;C:\idasdk70\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__NT__;__IDP__;__X64__;Zydis_EXPORTS;__EA64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>C:\idasdk70\lib\x64_win_vc_64\ida.lib;%(AdditionalDependencies);C:\Users\_el0n\source\repos\IDATraceRegister\libraries\zydis-2.0.3\msvc\bin\Zydis.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\idasdk70\lib\x64_win_vc_64\ida.lib;%(AdditionalDependencies);$(SolutionDir)libraries\zydis-2.0.3\msvc\bin\Zydis.lib</AdditionalDependencies>
       <AdditionalOptions />
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
@@ -129,7 +129,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\_el0n\source\repos\IDATraceRegister\IDATraceRegister;C:\Users\_el0n\source\repos\IDATraceRegister\libraries\zydis-2.0.3\include;C:\idasdk70\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)IDATraceRegister;$(SolutionDir)libraries\zydis-2.0.3\include;C:\idasdk70\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__NT__;__IDP__;__X64__;Zydis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
@@ -137,7 +137,7 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>C:\idasdk70\lib\x64_win_vc_32\ida.lib;%(AdditionalDependencies);C:\Users\_el0n\source\repos\IDATraceRegister\libraries\zydis-2.0.3\msvc\bin\Zydis.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\idasdk70\lib\x64_win_vc_32\ida.lib;%(AdditionalDependencies);$(SolutionDir)libraries\zydis-2.0.3\msvc\bin\Zydis.lib</AdditionalDependencies>
       <AdditionalOptions />
     </Link>
   </ItemDefinitionGroup>
@@ -149,7 +149,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\_el0n\source\repos\IDATraceRegister\IDATraceRegister;C:\Users\_el0n\source\repos\IDATraceRegister\libraries\zydis-2.0.3\include;C:\idasdk70\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)IDATraceRegister;$(SolutionDir)libraries\zydis-2.0.3\include;C:\idasdk70\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__NT__;__IDP__;__X64__;Zydis_EXPORTS;__EA64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
@@ -157,7 +157,7 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>C:\idasdk70\lib\x64_win_vc_64\ida.lib;C:\Users\_el0n\source\repos\IDATraceRegister\libraries\zydis-2.0.3\msvc\bin\Zydis.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>C:\idasdk70\lib\x64_win_vc_64\ida.lib;$(SolutionDir)libraries\zydis-2.0.3\msvc\bin\Zydis.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions />
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
